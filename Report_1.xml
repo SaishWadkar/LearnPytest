@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="2" tests="10" time="0.612" timestamp="2021-06-01T15:56:12.713856" hostname="INPUNSWADKAR01"><testcase classname="basic_test" name="test_1" time="0.001" /><testcase classname="basic_test" name="test_2" time="0.001" /><testcase classname="fixtures_test.TestClass" name="test_one" time="0.001" /><testcase classname="fixtures_test.TestClass" name="test_two" time="0.000"><skipped type="pytest.skip" message="I want to skip">C:\Users\swadkar\OneDrive - Infor\PycharmCommunity\Pytest\fixtures_test.py:39: I want to skip</skipped></testcase><testcase classname="paramaterized_test" name="test_multiple_parameter[10-20-200]" time="0.001" /><testcase classname="paramaterized_test" name="test_multiple_parameter[20-20-200]" time="0.001"><skipped type="pytest.xfail" message="" /></testcase><testcase classname="run_multiple_tests_test" name="test_fun" time="0.001" /><testcase classname="test_MyUnitTests.MyTestCase" name="test_something" time="0.001"><failure message="AssertionError: True != False">self = &lt;test_MyUnitTests.MyTestCase testMethod=test_something&gt;
+
+    def test_something(self):
+&gt;       self.assertEqual(True, False)
+E       AssertionError: True != False
+
+test_MyUnitTests.py:6: AssertionError</failure></testcase><testcase classname="test_api" name="test_login" time="0.222" /><testcase classname="Tests.test_one" name="test_one" time="0.005" /></testsuite></testsuites>
